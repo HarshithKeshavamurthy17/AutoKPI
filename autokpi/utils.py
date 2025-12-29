@@ -104,3 +104,5 @@ def get_categorical_summary(df: pd.DataFrame, column: str) -> Dict[str, Any]:
         'null_percentage': float(df[column].isna().sum() / len(df) * 100)
     }
 
+
+

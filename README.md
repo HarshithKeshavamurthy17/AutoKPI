@@ -115,13 +115,41 @@ The queries are templates and may require minor adjustments for your specific da
 - Conversion Rate KPIs (Completion Rate, Active vs Inactive)
 - Distribution KPIs (Status Distribution, Category Distribution)
 
+## 🌐 Live Demo
+
+**Live App**: https://[PROJECT-NAME].up.railway.app
+
+💡 **Note:** This app uses Railway's free tier. If it hasn't been visited recently, it may take 10-30 seconds to wake up. This is normal behavior for free hosting.
+
 ## 🚀 Deployment
 
-Deploy to Streamlit Cloud:
-1. Push your code to GitHub
-2. Connect your repository to Streamlit Cloud
-3. Set environment variables (OPENAI_API_KEY) if using LLM features
-4. Deploy!
+### Deploy to Railway.app
+
+AutoKPI is deployed on Railway.app for easy access and automatic deployments.
+
+**Quick Deploy Steps:**
+
+1. **Push to GitHub**: Make sure your code is pushed to a GitHub repository
+2. **Sign up for Railway**: Go to [railway.app](https://railway.app) and sign up with GitHub
+3. **Create New Project**: Click "New Project" → "Deploy from GitHub repo" → Select your AutoKPI repo
+4. **Configure Start Command**: In Settings → Start Command, set:
+   ```bash
+   streamlit run app.py --server.port $PORT --server.address 0.0.0.0
+   ```
+5. **Generate Domain**: In Settings → Domains, click "Generate Domain"
+6. **Set Environment Variables** (Optional): In Variables tab, add `OPENAI_API_KEY` if using LLM features
+7. **Wait for Deployment**: Railway automatically builds and deploys (2-5 minutes)
+
+**Auto-Deployment**: Railway automatically deploys when you push to your main branch on GitHub - no manual redeploy needed!
+
+📚 **For detailed deployment instructions, see [RAILWAY_DEPLOY.md](RAILWAY_DEPLOY.md)**
+
+### Free Tier Information
+
+- ✅ **$5 monthly credit** (enough for small apps)
+- ⏰ **Sleep mode after 7 days** of inactivity (normal behavior)
+- 🔄 **Auto wake-up** - Apps wake up within 10-30 seconds when accessed
+- 💤 **No credit card required** for free tier
 
 ## 📝 License
 

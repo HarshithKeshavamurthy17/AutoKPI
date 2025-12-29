@@ -388,3 +388,5 @@ Make the portfolio page engaging, visual, and professional, matching the style o
 
 **Use this prompt in Cursor to generate a beautiful portfolio page for AutoKPI that matches the style and quality of your F1 Prediction project page!**
 
+
+

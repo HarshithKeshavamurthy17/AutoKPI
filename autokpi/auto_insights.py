@@ -451,3 +451,5 @@ def format_insights_for_display(insights: List[Dict[str, Any]]) -> Dict[str, Lis
     
     return grouped
 
+
+

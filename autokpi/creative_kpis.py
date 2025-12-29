@@ -389,3 +389,5 @@ def generate_creative_kpis(df: pd.DataFrame, schema: Dict[str, Any]) -> List[Dic
     
     return all_kpis
 
+
+

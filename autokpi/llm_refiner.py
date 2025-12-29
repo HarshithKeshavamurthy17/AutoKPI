@@ -209,3 +209,5 @@ Respond in this format for each KPI:
         print(f"Error in batch refinement, falling back to individual refinement: {str(e)}")
         return refine_kpis_with_llm(kpis, context)
 
+
+

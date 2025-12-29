@@ -16,3 +16,5 @@ textColor = '#e5e7eb'\n\
 font = 'sans serif'\n\
 " > ~/.streamlit/config.toml
 
+
+
